@@ -24,27 +24,23 @@ $usuarios = [
 
 
 function somarIdades($usuarios) {
-
 $soma = 0;
     foreach($usuarios as $usuario) {
             $soma += $usuario["idade"];
     }
     return $soma;
 }
-
 $resultado = somarIdades($usuarios);
-
 var_dump($resultado);
+
 
 
 //somar qtde de usuarios
 function somaUsuario($usuarios) {
-    
     $contador = 0;
     foreach ($usuarios as $usuario) {
         $contador++;
     }
-
         return $contador;
 }
 
